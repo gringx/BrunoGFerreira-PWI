@@ -1,17 +1,23 @@
 table {
-    font-family: arial, sans-serif;
+    font-family: fantasy, sans-serif;
     border-collapse: collapse;
     width: 100%;
   }
   
   td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid red;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color:red;
   }
   odd = impar
   even = par
+
+}
+
+@media screen and (width: 1000px){
+    body {
+        color: black;
