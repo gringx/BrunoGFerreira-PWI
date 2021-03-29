@@ -1,0 +1,27 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+color: blue;
+text-align: center;
+
+}
+
+body {
+    background-color: green;
+    color: yellow;
+    text-align: justify;
+}
+
+@media screen and (width: 500px){
+    body {
+        color: white;
+    }
+}
+
+img {
+    width: 50%; 
+    padding-left: 25%;   
+}
